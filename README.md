@@ -18,8 +18,12 @@ In practice we use the following loss function:
 <br/>
 For Discriminator: Minimize *L*D​    =    −Ex,y∼P*data*​(x,y) ​[logD(x,y)]  −  Ez∼Pz​,y∼Py ​​[log(1−D(G(z,y),y))]
 <br/>
-For Generator: Minimize *L*G    ​=    −Ez,y∼Pz​ *×* py ​​[logD(G(z,y),y)]
+For Generator: Minimize *L*G    ​=    −Ez,y∼Pz​ *×* Py ​​[logD(G(z,y),y)]
 <br/>
+*Symbols have there usual meanings*
+
+<br/>
+
 
 After training, the Generator would generate images belonging to the given class label that would be similar to the those of the respective dataset.
 
