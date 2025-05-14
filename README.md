@@ -1,6 +1,6 @@
 ## cGAN
 
-It stands for Conditional Generative Adversarial Network, a deep learning architecture trained for generating images given a lable.
+It stands for Conditional Generative Adversarial Network, a deep learning architecture trained for generating images given a label. I have used it on MNIST fashion dataset and explored the interpolation between two known labels in latent space.
 
 ## How it works under the hood:
 
