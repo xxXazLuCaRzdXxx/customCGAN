@@ -16,6 +16,7 @@ It uses the same loss function but with modifications only to the inputs of Gene
 <br/>
 In practice we use the following loss function:
 <br/>
+<br/>
 For Discriminator: Minimize *L*D​    =    −Ex,y∼P*data*​(x,y) ​[logD(x,y)]  −  Ez∼Pz​,y∼Py ​​[log(1−D(G(z,y),y))]
 <br/>
 For Generator: Minimize *L*G    ​=    −Ez,y∼Pz​ *×* Py ​​[logD(G(z,y),y)]
